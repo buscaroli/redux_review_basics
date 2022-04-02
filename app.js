@@ -97,7 +97,7 @@ console.log('Chandler and Joey join the Apartment and spend some money.')
 store.dispatch(joinHome('Chandler', 500))
 store.dispatch(joinHome('Joey', 350))
 store.dispatch(spendMoney('Joey', 120))
-store.dispatch(spendMoney('MarkJoey', 250))
+store.dispatch(spendMoney('Joey', 250))
 console.log(store.getState())
 
 console.log("It's payday! Yeppeee!")
